@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script defer src="assets/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/pastel-glyph/64/FAB005/shopping-trolley--v1.png"
+      type="image/x-icon"
+    />
+    <title>Lista de compras</title>
+  </head>
+  <body>
+    <h2>Lista de compras</h2>
+    <main>
+      <label>Nome do item</label>
+      <div class="adionar-item">
+        <input type="text" placeholder="ex: leite em pó" />
+        <div class="quantidade">
+          <i class="bi bi-dash"></i>
+          <p class="unidade">1</p>
+          <i class="bi bi-plus"></i>
+        </div>
+      </div>
+      <button>adicionar a lista</button>
+
+      <div class="minha-lista">
+        <div class="descricao">
+          <p>Itens</p>
+          <p>Unidade</p>
+        </div>
+        <div id="lista"></div>
+      </div>
+    </main>
+    <footer>
+      <p>Desenvolvido por Mirele Oliveira da Silva &copy; 2025.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  min-height: 100svh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #181717;
+  color: white;
+}
+
+label {
+  color: black;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+main {
+  background-color: white;
+  border: 1px solid rgb(126, 124, 124);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.adionar-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+
+.quantidade {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+input {
+  padding: 4px;
+}
+
+.bi-plus {
+  width: 25px;
+  height: 25px;
+  background-color: #0c4881;
+  border-bottom: 1px solid rgb(46, 44, 44);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.bi-dash {
+  width: 25px;
+  height: 25px;
+  background-color: #0c4881;
+  border-bottom: 1px solid rgb(46, 44, 44);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.unidade {
+  width: 50px;
+  height: 25px;
+  border: 1px solid rgb(126, 124, 124);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+button {
+  border: none;
+  width: 40%;
+  padding: 2%;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #0c4881;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0e589e;
+}
+
+.bi-dash:hover {
+  background-color: #0e589e;
+}
+
+.bi-plus:hover {
+  background-color: #0e589e;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: row;
+  background-color: #0c4881;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgb(46, 44, 44);
+  font-weight: bold;
+}
+
+.minha-lista {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(126, 124, 124);
+  margin-top: 20px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px 5px 10px;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 40%;
+  }
+
+  input {
+    width: 70%;
+  }
+}
